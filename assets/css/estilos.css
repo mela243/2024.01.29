@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/5a/56/e2/5a56e2b738b455a3197caac74fd6f727.jpg);
+    background-position: 90% ; /*esto determina que tan a la izquierda comenzará*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+main{
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+
+}
+
+
+#tarjeta {
+    opacity: 80;
+    background-color: rgba(79, 83, 11, 0.493);
+    box-shadow: 0px 0px 10px #000;
+    margin: 0;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numero{
+    font-size: 100px;
+    position: absolute;
+    opacity: 3%;
+}
+
+img{
+    width: 250px;
+}
+
