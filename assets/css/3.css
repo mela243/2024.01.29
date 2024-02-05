@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(18, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+    text-shadow: 0 0 15px #ffff00;
+    color: #00ffff;
+    font-family: 'Single Day', cursive;
+    animation: title 1s infinite;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left:60px;
+    text-shadow: 0 0 15px #ffff00;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image-container img{
+    width: 80%;
+}
+
+article {
+    padding: 10px;
+    box-shadow: 0px 0px 1px #000;
+    width: 60%;
+    background-color: rgb(175, 139, 18);
+}
+
+
+body{
+    background: url('https://www.latercera.com/resizer/oStaaBjKjrTK8rrWE2MFitEba_g=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/FIN7ZFLY2VF7ZIO3F4VAH7DJ5I.jpg');
+    background-position: 90% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+ }
+
+ article {
+    opacity: 80;
+    background-color: rgba(79, 83, 11, 0.493);
+    box-shadow: 0px 0px 10px #000;
+    margin: 0;
+    width: 320px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.5rem;
+}
+
+button{
+    font-family: system-ui;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgb(8, 184, 111), rgba(255, 255, 255, 0.486));
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+    padding: 30px;
+    border-radius: 50px;
+    align-items: center;
+    margin-left: 950px;
+}

@@ -1,14 +1,20 @@
 body {
-    background-image: url(https://i.pinimg.com/originals/5a/56/e2/5a56e2b738b455a3197caac74fd6f727.jpg);
+    background-image: url('https://i.pinimg.com/originals/5a/56/e2/5a56e2b738b455a3197caac74fd6f727.jpg');
     background-position: 90% ; /*esto determina que tan a la izquierda comenzará*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-h1{
-    color: rgb(255, 255, 255);
+h1 {
+    text-align: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+    text-shadow: 0 0 15px #d8d8d8;
+    color: #395039;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main{
@@ -29,6 +35,7 @@ main{
     border-radius: 10px;
     align-items: center;
     flex-direction: column;
+    font-size: 2.5rem;
 }
 
 .numero{
@@ -41,3 +48,18 @@ img{
     width: 320px;
 }
 
+
+button{
+    font-family: system-ui;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgb(8, 184, 111), rgba(255, 255, 255, 0.486));
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+    padding: 30px;
+    border-radius: 50px;
+    align-items: center;
+    margin-left: 950px;
+}
